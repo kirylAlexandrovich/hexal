@@ -1,0 +1,298 @@
+body {
+  margin: 0;
+  font-family: 'Maven Pro', sans-serif;
+  min-width: 1064px;
+}
+
+h1 {
+  position: absolute;
+  top: -1000px;
+}
+
+header {
+  height: 63px;
+  background-color: #323232;
+  display: flex;
+  justify-content: center;
+}
+
+.menu a {
+  margin: 10px;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.menu a:hover {
+  color: #9c9c9c;
+}
+
+.menu {
+  width: 195px;
+  padding: 20px 0;
+}
+
+.left-menu {
+  text-align: right;
+}
+
+.left-menu::after {
+  content: '';
+  width: 41%;
+  height: 1px;
+  background-color: #e4e9eb;
+  position: absolute;
+  top: 70px;
+  left: 30px;
+}
+
+.right-menu::after {
+  content: '';
+  width: 41%;
+  height: 1px;
+  background-color: #e4e9eb;
+  position: absolute;
+  top: 70px;
+  right: 30px;
+}
+
+.icon {
+  padding-top: 8px;
+}
+
+.icon img {
+  margin: auto;
+  display: block;
+}
+
+.icon-triangle {
+  width: 80px;
+  height: 25px;
+}
+
+/* main start */
+.hexal-img {
+  width: 182px;
+  height: 209px;
+  margin: 0 9px;
+}
+
+.image-container {
+  margin: 80px 20px 0;
+  font-family: none;
+}
+
+.image-container::after {
+  content: '';
+  width: 95%;
+  height: 1px;
+  background-color: #e4e9eb;
+  position: absolute;
+  left: 30px;
+  top: 770px;
+}
+
+.image-line {
+  width: 1px;
+  height: 157px;
+}
+
+.first-layer {
+  width: 822px;
+  margin: auto;
+}
+
+.second-layer {
+  width: 1016px;
+  margin: auto;
+  position: relative;
+  bottom: 35px;
+}
+
+.third-layer {
+  width: 822px;
+  margin: auto;
+  position: relative;
+  bottom: 70px;
+}
+
+.about-smith-container {
+  background-color: #2eb398;
+  padding: 65px 0;
+}
+
+.smith-description {
+  width: 900px;
+  display: flex;
+  margin: auto;
+}
+
+.smith-description::before {
+  content: '';
+  width: 1px;
+  height: 315px;
+  background-color: #219d84;
+  position: absolute;
+  top: 795px;
+  left: 100px;
+}
+
+.smith-description::after {
+  content: '';
+  width: 1px;
+  height: 315px;
+  background-color: #219d84;
+  position: absolute;
+  top: 795px;
+  right: 100px;
+}
+
+.about-smith {
+  margin: 0 20px;
+}
+
+.about-smith h2 {
+  font-family: Garamond;
+  font-weight: 100;
+  color: #d7fcf5;
+}
+
+.about-smith span {
+  color: #20816d;
+}
+
+.about-smith p {
+  color: #d7fcf5;
+}
+
+.about-smith a {
+  font-size: 24px;
+  color: #d7fcf5;
+  position: relative;
+  left: 525px;
+}
+
+.about-smith a:hover {
+  color: #7d9c97;
+}
+
+.smith-photo {
+  width: 182px;
+  height: 209px;
+}
+
+/* footer start */
+footer {
+  background-color: #323232;
+  padding-top: 60px;
+}
+
+footer::before {
+  content: '';
+  width: 95%;
+  height: 1px;
+  background-color: #2b2b2b;
+  position: absolute;
+  top: 1140px;
+  left: 30px;
+}
+
+footer::after {
+  content: '';
+  width: 95%;
+  height: 1px;
+  background-color: #2b2b2b;
+  position: absolute;
+  top: 1680px;
+  left: 30px;
+}
+
+.footer-container {
+  width: 80%;
+  display: flex;
+  margin: 0 auto 60px;
+  color: #e0e0e0;
+}
+
+.form-container {
+  width: 580px;
+}
+
+.get-in-touch {
+  margin-bottom: 0;
+}
+
+.form {
+  width: 565px;
+  height: 38px;
+  border: none;
+  background-color: #454545;
+  margin-top: 15px;
+  padding: 0 0 0 15px;
+  font-size: 12px;
+  color: #e0e0e0;
+}
+
+.submit-button {
+  width: 90px;
+  height: 35px;
+  background-color: #2eb398;
+  padding: 0;
+  position: relative;
+  left: 490px;
+}
+
+.message {
+  height: 150px;
+  resize: none;
+  padding-top: 10px;
+}
+
+.contacts-container {
+  padding: 65px 50px 0 20px;
+}
+
+.contacts-container p {
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.contacts {
+  margin-top: 40px;
+}
+
+.contacts i {
+  margin-right: 10px;
+  color: #2eb398;
+}
+
+.fa-map-marker-alt {
+  margin-left: 4px;
+}
+
+.list-contacts {
+  padding: 0;
+}
+
+.list-contacts li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+.list-contacts a {
+  text-decoration: none;
+  color: #e0e0e0;
+}
+
+.list-contacts a:hover {
+  color: #9c9c9c;
+}
+
+.copyright {
+  width: 100%;
+  height: 30px;
+  background-color: #222;
+  padding: 14px 0 0 20px;
+  font-size: 12px;
+  color: #414141; 
+}
